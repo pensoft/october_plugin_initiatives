@@ -1,0 +1,20 @@
+plugin:
+    name: 'pensoft.initiatives::lang.plugin.name'
+    description: 'pensoft.initiatives::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-key
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Key initiatives'
+        url: pensoft/initiatives/initiatives
+        icon: icon-key
+        sideMenu:
+            side-menu-item:
+                label: Initiatives
+                url: pensoft/initiatives/initiatives
+                icon: icon-keyboard-o
+            side-menu-item2:
+                label: Categories
+                url: pensoft/initiatives/categories
+                icon: icon-sitemap

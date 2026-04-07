@@ -1,0 +1,5 @@
+title: Category
+nameFrom: title
+modelClass: Pensoft\Initiatives\Models\Category
+toolbar:
+    buttons: reorder_toolbar

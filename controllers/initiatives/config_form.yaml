@@ -1,0 +1,10 @@
+name: Initiatives
+form: $/pensoft/initiatives/models/initiative/fields.yaml
+modelClass: Pensoft\Initiatives\Models\Initiative
+defaultRedirect: pensoft/initiatives/initiatives
+create:
+    redirect: 'pensoft/initiatives/initiatives/update/:id'
+    redirectClose: pensoft/initiatives/initiatives
+update:
+    redirect: pensoft/initiatives/initiatives
+    redirectClose: pensoft/initiatives/initiatives

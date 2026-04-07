@@ -1,0 +1,10 @@
+name: Categories
+form: $/pensoft/initiatives/models/category/fields.yaml
+modelClass: Pensoft\Initiatives\Models\Category
+defaultRedirect: pensoft/initiatives/categories
+create:
+    redirect: 'pensoft/initiatives/categories/update/:id'
+    redirectClose: pensoft/initiatives/categories
+update:
+    redirect: pensoft/initiatives/categories
+    redirectClose: pensoft/initiatives/categories

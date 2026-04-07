@@ -1,0 +1,30 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    category:
+        label: Category
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    website:
+        label: Website
+        span: auto
+        type: text
+    description:
+        label: Description
+        size: large
+        span: auto
+        type: richeditor
+    logo:
+        label: Logo
+        mode: image
+        fileTypes: 'jpg,jpeg,png,gif,svg'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

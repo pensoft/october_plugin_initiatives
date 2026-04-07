@@ -1,0 +1,12 @@
+list: $/pensoft/initiatives/models/initiative/columns.yaml
+modelClass: Pensoft\Initiatives\Models\Initiative
+title: Initiatives
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pensoft/initiatives/initiatives/update/:id'

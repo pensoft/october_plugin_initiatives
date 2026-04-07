@@ -1,0 +1,22 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pensoft_initiatives_categories'
+    - builder_table_create_pensoft_initiatives_categories.php
+1.0.3:
+    - 'Created table pensoft_initiatives_data'
+    - builder_table_create_pensoft_initiatives_data.php
+1.0.4:
+    - 'Updated table pensoft_initiatives_categories'
+    - builder_table_update_pensoft_initiatives_categories.php
+1.0.5:
+    - 'Updated table pensoft_initiatives_categories'
+    - builder_table_update_pensoft_initiatives_categories_2.php
+1.0.6:
+    - 'Updated table pensoft_initiatives_data'
+    - builder_table_update_pensoft_initiatives_data.php
+1.0.7:
+    - 'composer'
+
+4.0.1:
+    - 'Migrated to OctoberCMS 4 and PHP 8.2'

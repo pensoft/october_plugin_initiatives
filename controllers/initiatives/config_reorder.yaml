@@ -1,0 +1,5 @@
+title: Initiative
+nameFrom: title
+modelClass: Pensoft\Initiatives\Models\Initiative
+toolbar:
+    buttons: reorder_toolbar
